@@ -50,12 +50,12 @@
     transition-property: height;
     transition-duration: 2s;
     overflow: hidden;
-    /* transition: height 1s linear;
-    height: 0; */
+    transition: height 1s linear;
+    height: 0;
 }
 
-.border-text .show {
-    height: 122px;
+.border-text.show {
+    height: 150px;
     transition: height 1s linear;
 }
 
